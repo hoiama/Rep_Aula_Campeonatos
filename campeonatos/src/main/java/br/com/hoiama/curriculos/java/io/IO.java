@@ -21,7 +21,6 @@ import java.util.Properties;
 import java.util.Scanner;
 
 public class IO {
-
 	
 	// ENTRADA DE DADOS A PARTIR DE ARQUIVOS!!!
 	
@@ -56,14 +55,12 @@ public class IO {
 			Scanner linhaScanner = new Scanner(linha);
 			linhaScanner.useLocale(Locale.US);
 			linhaScanner.useDelimiter(",");
-			
 			String valor1 = linhaScanner.next();
 			String valor2 = linhaScanner.next();
 			String valor3 = linhaScanner.next();
 			int numero4 = linhaScanner.nextInt();
 			double numero5 = linhaScanner.nextDouble();
 			String valor6 = linhaScanner.next();
-			
 			String formatacao = String.format(
 					new Locale("pt", "BR") ,"%s - %s - %s - ( %04d | %09.2f ) - %s ",
 					valor1,valor2,valor3,numero4,numero5,valor6);
@@ -77,15 +74,11 @@ public class IO {
 	public void leitorProperties() throws IOException {
 		Properties prop = new Properties();
 		prop.load(new FileReader("conf.properties"));
-		
 		String login = prop.getProperty("login");
 		String senha = prop.getProperty("senha");
 		String url = prop.getProperty("url");
-		
 		System.out.println(login + senha + url);
 	}
-	
-	
 
 	// SAIDA DE DADOS EM FORMANTO DE ARQUIVOS TXT
 

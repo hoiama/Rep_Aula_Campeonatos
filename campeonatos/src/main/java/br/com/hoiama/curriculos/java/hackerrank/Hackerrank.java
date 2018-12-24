@@ -1,4 +1,5 @@
 package br.com.hoiama.curriculos.java.hackerrank;
+
 import java.util.Scanner;
 
 public class Hackerrank {
