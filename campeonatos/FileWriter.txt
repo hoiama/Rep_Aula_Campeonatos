@@ -1,2 +1,0 @@
-Testando primeira linha :: FileWriter
-Testando segunda linha :: FileWriter
