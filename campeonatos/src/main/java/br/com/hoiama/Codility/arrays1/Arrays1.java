@@ -9,17 +9,17 @@ public class Arrays1 {
     public int solution(int[] A){
        List<Integer> lista = Arrays.stream(A).boxed().collect(Collectors.toList());
 
-        return IntStream
-                .range(0, lista.size())
-                .reduce((acumulador, index) -> {
-                    lista.stream().forEach(element -> {
-                        if(lista.get(index) == element){
-                           //contar quantso elemtneos qom index igual e mesmo valor, tem que ser 1
-                        }
-                    });
-                    return acumulador; })
-                .getAsInt();
+       lista.stream().forEach(element -> {
+             long quantidadeElements =  lista
+                   .stream()
+                   .filter(elementoFilter -> elementoFilter.equals(element))
+                   .count();
+             if(quantidadeElements == 1){
+               return quantidadeElements;
+             }
+        });
 
+        return 0;
     }
 }
 // comparar cada elemento com os demais da lista verificando repetições
