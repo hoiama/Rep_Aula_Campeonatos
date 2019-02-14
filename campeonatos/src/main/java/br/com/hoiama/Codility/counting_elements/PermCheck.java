@@ -1,4 +1,4 @@
-package br.com.hoiama.codility.counting_elements;
+package br.com.hoiama.Codility.counting_elements;
 
 import java.util.*;
 
