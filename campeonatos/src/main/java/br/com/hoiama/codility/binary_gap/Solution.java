@@ -1,4 +1,4 @@
-package br.com.hoiama.codility.binary_gap;
+package br.com.hoiama.Codility.binary_gap;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
