@@ -1,4 +1,4 @@
-package br.com.hoiama.Codility.arrays1;
+package br.com.hoiama.codility.arrays1;
 
 import java.util.Arrays;
 import java.util.List;
