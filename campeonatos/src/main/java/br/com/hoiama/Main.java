@@ -1,7 +1,6 @@
 package br.com.hoiama;
 
-import br.com.hoiama.codility.arrays1.Arrays1;
-import br.com.hoiama.codility.counting_elements.PermCheck;
+import br.com.hoiama.Codility.counting_elements.PermCheck;
 
 public class Main {
 
