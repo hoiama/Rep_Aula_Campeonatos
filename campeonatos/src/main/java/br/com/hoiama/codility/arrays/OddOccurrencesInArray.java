@@ -1,11 +1,10 @@
-package br.com.hoiama.codility.arrays1;
+package br.com.hoiama.codility.arrays;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
-public class Arrays1 {
+public class OddOccurrencesInArray {
     public int solution(int[] A){
        List<Integer> lista = Arrays.stream(A).boxed().collect(Collectors.toList());
         return lista

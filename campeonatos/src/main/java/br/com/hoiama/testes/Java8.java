@@ -1,4 +1,4 @@
-package br.com.hoiama.curriculos.java.java8;
+package br.com.hoiama.testes;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package br.com.hoiama.curriculos.java.io;
+package br.com.hoiama.testes.io;
 
 import java.io.IOException;
 

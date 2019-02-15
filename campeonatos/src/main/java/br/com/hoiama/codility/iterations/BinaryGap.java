@@ -1,9 +1,9 @@
-package br.com.hoiama.codility.binary_gap;
+package br.com.hoiama.codility.iterations;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Solution {
+public class BinaryGap {
     public int solution(int N) {
         String binaryNumber = Integer.toBinaryString(N);
         Matcher matcher = Pattern
